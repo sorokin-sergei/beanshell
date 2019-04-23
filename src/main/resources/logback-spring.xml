@@ -1,0 +1,16 @@
+<configuration debug="true">
+	<appender name="STDOUTLOG" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<charset>UTF-8</charset>
+			<pattern>
+				%d{HH:mm:ss.SSS} %-5level [%thread] %logger{36}#%M:%line - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+	<logger name="blob.volgo" level="DEBUG" additivity="false">
+		<appender-ref ref="STDOUTLOG" />
+	</logger>
+	<root level="INFO">
+		<appender-ref ref="STDOUTLOG" />
+	</root>
+</configuration>
