@@ -1,4 +1,4 @@
-package blob.volgo;
+package ru.volgablob;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

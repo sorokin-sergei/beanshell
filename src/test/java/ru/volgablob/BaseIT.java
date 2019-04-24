@@ -1,4 +1,4 @@
-package blob.volgo.beanshell;
+package ru.volgablob;
 
 import org.apache.http.client.config.CookieSpecs;
 import org.apache.http.client.config.RequestConfig;

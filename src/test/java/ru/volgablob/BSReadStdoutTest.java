@@ -1,4 +1,4 @@
-package blob.volgo.beanshell;
+package ru.volgablob;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

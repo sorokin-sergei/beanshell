@@ -1,4 +1,4 @@
-package blob.volgo.rest;
+package ru.volgablob.rest;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
